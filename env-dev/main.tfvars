@@ -7,7 +7,7 @@ parameters = [
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.madhavi91.online" },
   { name = "dev.catalogue.mongo", value = "MONGO=true" },
   { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.madhavi91.online:27017/catalogue" },
+  { name = "dev.user.mongo", value = "MONGO=true" },
   { name = "dev.user.redis_host", value = "radis-dev.madhavi91.online" },
-  { name = "dev.user.catalogue_host", value = "catalogue-dev.madhavi91.online" },
-  { name = "dev.user.catalogue_port", value = "8080" }
+  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.madhavi91.online:27017/users" }
 ]
