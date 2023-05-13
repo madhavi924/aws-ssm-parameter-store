@@ -12,7 +12,9 @@ parameters = [
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.madhavi91.online:27017/users" },
   { name = "dev.cart.redis_host", value = "radis-dev.madhavi91.online" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.madhavi91.online" },
-  { name = "dev.cart.catalogue_port", value = "8080" }
-  { name = "dev.shipping.cart_endpoint", value = "cart-dev.madhavi91.online:8080" }
-  { name = "dev.shipping.db_host", value = "mysql-dev.madhavi91.online" }
+  { name = "dev.cart.catalogue_port", value = "8080" },
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.madhavi91.online:8080" },
+  { name = "dev.shipping.db_host", value = "mysql-dev.madhavi91.online" },
+  { name = "dev.shipping.db_user", value = "root" },
+  { name = "dev.shipping.db_pass", value = "RoboShop@1" }
 ]
